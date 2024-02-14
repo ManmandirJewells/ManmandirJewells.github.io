@@ -186,10 +186,10 @@ img{
         }
         .diam2{
             display: inline-block;
-            height: 110px;
-            width: 90px;
-            padding: 3px;
-            border-radius: 45px;
+            height: 120px;
+            width: 100px;
+            padding: 5px;
+            border-radius: 50px;
         }
         .grid-container {
             display: grid;
