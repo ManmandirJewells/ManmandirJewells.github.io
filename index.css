@@ -12,8 +12,7 @@
         animation-fill-mode: forwards;
     }
 } 
-
- .nav_bar{
+.nav_bar{
     height: 60px;
     background-color: #dbc4a0;
     display: flex;
@@ -36,6 +35,7 @@ i{
   font-family: 'Dancing Script', cursive;
   } 
   .heading{
+
     font-size: 78px;
     color: rgb(85, 53, 14);
     text-align: center;
@@ -59,7 +59,7 @@ i{
     display: inline-block;
     height: 250px;
     width: 250px;
-    padding: 10px;
+    padding: 7px;
     border-radius: 50px;
 }
 .info{
@@ -89,18 +89,6 @@ em{
     margin-right: 4%;
     margin-bottom: 0%;
     font-family: 'Caveat', cursive;
-}
-.nav_bar{
-    height: 60px;
-    background-color: #e3b2e3;
-    display: flex;
-    margin-top: 8px;
-    align-items: center;
-    justify-content: space-evenly;
-}
-i{
-    font-size: 2rem;
-    display: flex;
 }
 .div{
     font-size: 76px;
@@ -149,7 +137,7 @@ img{
 
  }
  @media screen and (max-width:600px) {
-     .nav_bar{
+    .nav_bar{
         height: 60px;
         background-color: #dbc4a0;
         display: flex;
@@ -171,6 +159,7 @@ img{
         margin-top: 0%;
     }
     .heading1{
+
         font-size: 90px;
         color: rgb(85, 53, 14);
         text-align: left;
@@ -187,13 +176,7 @@ img{
           margin-top: 2%;
           font-family: 'Dancing Script', cursive;
           }
-          .logo{
-            height: 60px;
-            width: 60px;
-            float: right;
-            margin-right: 4%;
-            margin-top: 2%;
-        }
+          
         .info{
             font-size: 24px;
             color: rgb(20, 11, 1);
@@ -265,6 +248,7 @@ img{
         img{
             width: 180px;
             height: 180px;
+        
          }   
  }
 
