@@ -13,7 +13,20 @@
     }
 } 
 
- 
+ .nav_bar{
+    height: 60px;
+    background-color: #dbc4a0;
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    border: 2px solid #744b08;
+}
+i{
+    font-size: 2rem;
+    display: flex;
+}
  .heading1{
   font-size: 105px;
   color: rgb(85, 53, 14);
@@ -23,7 +36,6 @@
   font-family: 'Dancing Script', cursive;
   } 
   .heading{
-
     font-size: 78px;
     color: rgb(85, 53, 14);
     text-align: center;
@@ -32,12 +44,11 @@
     font-family: 'Dancing Script', cursive;
     } 
 .logo{
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     float: right;
+    border-radius: 40px;
     margin-top: 0%;
-    margin-right: 4%;
-    border-radius: 50px;
 }
 
 .design:hover{
@@ -78,6 +89,18 @@ em{
     margin-right: 4%;
     margin-bottom: 0%;
     font-family: 'Caveat', cursive;
+}
+.nav_bar{
+    height: 60px;
+    background-color: #e3b2e3;
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+i{
+    font-size: 2rem;
+    display: flex;
 }
 .div{
     font-size: 76px;
@@ -126,8 +149,28 @@ img{
 
  }
  @media screen and (max-width:600px) {
+     .nav_bar{
+        height: 60px;
+        background-color: #dbc4a0;
+        display: flex;
+        margin-top: 8px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 15px;
+        border: 2px solid #744b08;
+    }
+    i{
+        font-size: 2rem;
+        display: flex;
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+        float: right;
+        border-radius: 30px;
+        margin-top: 0%;
+    }
     .heading1{
-
         font-size: 90px;
         color: rgb(85, 53, 14);
         text-align: left;
@@ -222,7 +265,6 @@ img{
         img{
             width: 180px;
             height: 180px;
-        
          }   
  }
 
