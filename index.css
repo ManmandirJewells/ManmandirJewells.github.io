@@ -159,7 +159,6 @@ img{
         margin-top: 0%;
     }
     .heading1{
-
         font-size: 90px;
         color: rgb(85, 53, 14);
         text-align: left;
@@ -168,7 +167,6 @@ img{
         font-family: 'Dancing Script', cursive;
         } 
         .heading{
-      
           font-size: 68px;
           color: rgb(85, 53, 14);
           text-align: center;
@@ -176,7 +174,6 @@ img{
           margin-top: 2%;
           font-family: 'Dancing Script', cursive;
           }
-          
         .info{
             font-size: 24px;
             color: rgb(20, 11, 1);
@@ -219,8 +216,8 @@ img{
         }
         .grid-container {
             display: grid;
-            auto-grid-min-size: 8rem;
-            grid-template-columns: repeat(auto-fill, minmax(var(auto-grid-min-size), 0.8fr));
+            --auto-grid-min-size: 8rem;
+            grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 0.8fr));
             grid-gap: 0.8rem;
             padding: 5px;
           }
