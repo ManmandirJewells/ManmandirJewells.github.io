@@ -136,6 +136,28 @@ img{
     height: 300px;
 
  }
+.footer h2{
+    font-size: 55px;
+    color: rgb(106, 64, 13);
+    text-align: left;
+    margin-left: 2%;
+    font-family: 'Roboto', sans-serif;
+ }
+ .footer-info{
+    font-size: 25px;
+    color: rgb(20, 11, 1);
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 0%;
+    font-family: 'Playfair Display', serif;
+ }
+ .footer-contact{
+    font-size: 35px;
+    text-align: left;
+    color: rgb(20, 12, 78);
+    margin-left: 2%;
+    font-family: 'Caveat', cursive;  
+ }
  @media screen and (max-width:600px) {
     .nav_bar{
         height: 60px;
@@ -245,9 +267,31 @@ img{
         }
         img{
             width: 180px;
-            height: 180px;
-        
-         }   
+            height: 180px;      
+         }
+     .footer h2{
+            font-size: 35px;
+            color: rgb(106, 64, 13);
+            text-align: left;
+            margin-left: 2%;
+            font-family: 'Roboto', sans-serif;
+         }
+         .footer-info{
+            font-size: 15px;
+            color: rgb(20, 11, 1);
+            text-align: left;
+            margin-left: 2%;
+            margin-top: 0%;
+            font-family: 'Playfair Display', serif;
+         }
+         .footer-contact{
+            font-size: 27px;
+            text-align: left;
+            color: rgb(20, 12, 78);
+            margin-left: 2%;
+            font-family: 'Caveat', cursive;  
+         }
+     
  }
 
  @media screen and (max-width:600px){
