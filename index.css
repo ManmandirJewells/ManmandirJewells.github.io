@@ -158,6 +158,13 @@ img{
     margin-left: 2%;
     font-family: 'Caveat', cursive;  
  }
+.created-by{
+    font-size: 23px;
+    text-align: right;
+    color: rgb(15, 8, 71);
+    margin-right: 2%;
+    font-family: 'Playfair Display', serif;
+ }
  @media screen and (max-width:600px) {
     .nav_bar{
         height: 60px;
@@ -291,7 +298,13 @@ img{
             margin-left: 2%;
             font-family: 'Caveat', cursive;  
          }
-     
+         .created-by{
+            font-size: 15px;
+            text-align: right;
+            color: rgb(15, 8, 71);
+            margin-right: 2%;
+            font-family: 'Playfair Display', serif;
+         }
  }
 
  @media screen and (max-width:600px){
