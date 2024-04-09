@@ -14,13 +14,13 @@
 } 
 .nav_bar{
     height: 60px;
-    background-color: #dbc4a0;
+    background-color: #f3c9b8;
     display: flex;
     margin-top: 8px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 15px;
-    border: 2px solid #744b08;
+    border: 2px solid #ffd99b;
 }
 i{
     font-size: 2rem;
@@ -159,7 +159,7 @@ img{
     font-family: 'Caveat', cursive;  
  }
 .created-by{
-    font-size: 23px;
+    font-size: 20px;
     text-align: right;
     color: rgb(15, 8, 71);
     margin-right: 2%;
@@ -173,16 +173,22 @@ img{
     margin-right: 2%;
     font-family: 'Playfair Display', serif;
  }
+.sub-heading{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(245, 63, 7);
+ }
  @media screen and (max-width:600px) {
     .nav_bar{
         height: 60px;
-        background-color: #dbc4a0;
+        background-color: #f3c9b8;
         display: flex;
         margin-top: 8px;
         align-items: center;
         justify-content: space-evenly;
         border-radius: 15px;
-        border: 2px solid #744b08;
+        border: 2px solid #ffd99b;
     }
     i{
         font-size: 2rem;
@@ -307,7 +313,7 @@ img{
             font-family: 'Caveat', cursive;  
          }
          .created-by{
-            font-size: 15px;
+            font-size: 12px;
             text-align: right;
             color: rgb(15, 8, 71);
             margin-right: 2%;
@@ -321,6 +327,12 @@ img{
             color: rgb(15, 8, 71);
             margin-right: 2%;
             font-family: 'Playfair Display', serif;
+         }
+         .sub-heading{
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            color: rgb(245, 63, 7);
          }
  }
 
