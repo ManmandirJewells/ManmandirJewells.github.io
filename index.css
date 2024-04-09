@@ -180,10 +180,10 @@ img{
     color: rgb(245, 63, 7);
  }
 .sub-info{
-    font-family: "Exo", sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: #913a03;
     font-size: 30px;
     margin-left: 20px;
-    color: #473003;
  }
  @media screen and (max-width:600px) {
     .nav_bar{
@@ -341,10 +341,10 @@ img{
             color: rgb(245, 63, 7);
          }
          .sub-info{
-            font-family: "Exo", sans-serif;
+            font-family: 'Playfair Display', serif;
+            color: #913a03;
             font-size: 20px;
             margin-left: 15px;
-            color: #473003;
          }
  }
 
