@@ -121,10 +121,9 @@ em{
     border-radius: 300px;
 }
 .img_hover{
-    width: 300px;
-    height: 300px;
-    border-radius: 70px;
-    padding:10px;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
 }
 .img_hover:hover{
     transform: scale(1.4);
@@ -284,8 +283,8 @@ img{
             height: 150px;
         }
         .img_hover{
-            border-radius: 50px; 
-            padding:8px;
+            height: 300px;/*400px;*/
+            width: 300px;/*400px;*/
         }
         .img_hover:hover{
             transform: scale(1.4);
